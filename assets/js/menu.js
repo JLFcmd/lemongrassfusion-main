@@ -39,59 +39,60 @@ const MENU_DATA = [
         "category": "Chicken or Beef",
         "description": "Choose your protein: Chicken or Beef",
         "items": [
-            { "id": "19", "name": "Kaeng Panang", "price": "Inquire", "description": "Rich and creamy Panang curry.", "ingredients": ["Coconut milk", "panang curry", "peanuts"], "allergens": ["Peanuts"] },
-            { "id": "20", "name": "Kaeng Massaman", "price": "Inquire", "description": "Mild Massaman curry with potatoes.", "ingredients": ["Potatoes", "coconut milk", "peanuts", "tamarind sauce"], "allergens": ["Peanuts"] },
-            { "id": "21", "name": "Kaeng Phed (Red Curry)", "price": "Inquire", "description": "Red curry with eggplant.", "ingredients": ["Coconut milk", "red curry", "eggplant", "basil"], "allergens": [] },
-            { "id": "22", "name": "Phad Khing", "price": "Inquire", "description": "Ginger stir-fry.", "ingredients": ["Ginger", "chives", "soy sauce", "mushrooms"], "allergens": ["Soy"] },
-            { "id": "23", "name": "Phad Kapraw", "price": "Inquire", "description": "Spicy stir-fry with basil.", "ingredients": ["Thai basil", "chili", "garlic", "beans"], "allergens": [] },
-            { "id": "24", "name": "Phad Med Mamuang", "price": "Inquire", "description": "Cashew nut stir-fry.", "ingredients": ["Cashews", "onion", "bell pepper", "special sauce"], "allergens": ["Nuts"] },
-            { "id": "25", "name": "Kaeng Karee (Yellow Curry)", "price": "Inquire", "description": "Mild yellow curry.", "ingredients": ["Coconut milk", "yellow curry", "potatoes", "onion"], "allergens": [] },
-            { "id": "26", "name": "Kae Par (Jungle Curry)", "price": "Inquire", "description": "Red curry jungle style (without coconut milk).", "ingredients": ["Mixed vegetables", "red curry", "spices", "chili"], "allergens": [] },
-            { "id": "27", "name": "Kaeng Kaew Whan (Green Curry)", "price": "Inquire", "description": "Aromatic green curry.", "ingredients": ["Coconut milk", "green curry", "bamboo", "basil"], "allergens": [] }
+            { "id": "19", "name": "Kaeng Panang", "price": "12.00 / 13.00", "description": "Rich and creamy Panang curry.", "ingredients": ["Coconut milk", "panang curry", "peanuts"], "allergens": ["Peanuts"] },
+            { "id": "20", "name": "Kaeng Massaman", "price": "12.00 / 13.00", "description": "Mild Massaman curry with potatoes.", "ingredients": ["Potatoes", "coconut milk", "peanuts", "tamarind sauce"], "allergens": ["Peanuts"] },
+            { "id": "21", "name": "Kaeng Phed (Red Curry)", "price": "12.00 / 13.00", "description": "Red curry with eggplant.", "ingredients": ["Coconut milk", "red curry", "eggplant", "basil"], "allergens": [] },
+            { "id": "22", "name": "Phad Khing", "price": "12.00 / 13.00", "description": "Ginger stir-fry.", "ingredients": ["Ginger", "chives", "soy sauce", "mushrooms"], "allergens": ["Soy"] },
+            { "id": "23", "name": "Phad Kapraw", "price": "12.00 / 13.00", "description": "Spicy stir-fry with basil.", "ingredients": ["Thai basil", "chili", "garlic", "beans"], "allergens": [] },
+            { "id": "24", "name": "Phad Med Mamuang", "price": "12.00 / 13.00", "description": "Cashew nut stir-fry.", "ingredients": ["Cashews", "onion", "bell pepper", "special sauce"], "allergens": ["Nuts"] },
+            { "id": "25", "name": "Kaeng Karee (Yellow Curry)", "price": "12.00 / 13.00", "description": "Mild yellow curry.", "ingredients": ["Coconut milk", "yellow curry", "potatoes", "onion"], "allergens": [] },
+            { "id": "26", "name": "Kae Par (Jungle Curry)", "price": "12.00 / 13.00", "description": "Red curry jungle style (without coconut milk).", "ingredients": ["Mixed vegetables", "red curry", "spices", "chili"], "allergens": [] },
+            { "id": "27", "name": "Kaeng Kaew Whan (Green Curry)", "price": "12.00 / 13.00", "description": "Aromatic green curry.", "ingredients": ["Coconut milk", "green curry", "bamboo", "basil"], "allergens": [] }
         ]
     },
     {
         "category": "Lamb",
         "items": [
-            { "id": "28", "name": "Kae Kratheam", "price": "Inquire", "description": "Lamb with garlic and pepper.", "ingredients": ["Lamb", "garlic", "black pepper", "cilantro"], "allergens": [] },
-            { "id": "29", "name": "Kaeng Karee Kae", "price": "Inquire", "description": "Lamb in yellow curry.", "ingredients": ["Lamb", "coconut milk", "potatoes", "yellow curry"], "allergens": [] },
-            { "id": "30", "name": "Massaman Kae", "price": "Inquire", "description": "Traditional Lamb Massaman.", "ingredients": ["Lamb", "coconut milk", "potatoes", "peanuts"], "allergens": ["Peanuts"] },
-            { "id": "31", "name": "Kapraw Kae", "price": "Inquire", "description": "Lamb with spicy basil.", "ingredients": ["Lamb", "basil", "chili", "green beans"], "allergens": [] }
+            { "id": "28", "name": "Kae Kratheam", "price": "14.50", "description": "Lamb with garlic and pepper.", "ingredients": ["Lamb", "garlic", "black pepper", "cilantro"], "allergens": [] },
+            { "id": "29", "name": "Kaeng Karee Kae", "price": "14.50", "description": "Lamb in yellow curry.", "ingredients": ["Lamb", "coconut milk", "potatoes", "yellow curry"], "allergens": [] },
+            { "id": "30", "name": "Massaman Kae", "price": "14.50", "description": "Traditional Lamb Massaman.", "ingredients": ["Lamb", "coconut milk", "potatoes", "peanuts"], "allergens": ["Peanuts"] },
+            { "id": "31", "name": "Kapraw Kae", "price": "14.50", "description": "Lamb with spicy basil.", "ingredients": ["Lamb", "basil", "chili", "green beans"], "allergens": [] }
         ]
     },
     {
         "category": "Duck",
         "items": [
-            { "id": "32", "name": "Ped Laad Prik", "price": "Inquire", "description": "Duck with sweet chili sauce.", "ingredients": ["Duck", "sweet chili sauce", "basil"], "allergens": ["Soy"] },
-            { "id": "33", "name": "Ped Krob Lemongrass", "price": "Inquire", "description": "Crispy duck Lemongrass style.", "ingredients": ["Duck", "stir-fried vegetables", "lemongrass", "special sauce"], "allergens": ["Soy"] },
-            { "id": "34", "name": "Ped Kratheam", "price": "Inquire", "description": "Duck with garlic and pepper.", "ingredients": ["Duck", "garlic", "pepper"], "allergens": [] },
-            { "id": "35", "name": "Ped Pad Pak", "price": "Inquire", "description": "Duck stir-fry with vegetables.", "ingredients": ["Duck", "fresh vegetables", "soy sauce"], "allergens": ["Soy"] },
-            { "id": "36", "name": "Ped Wine Daeng", "price": "Inquire", "description": "Duck in red wine.", "ingredients": ["Duck", "red wine", "spices"], "allergens": ["Sulphites"] },
-            { "id": "37", "name": "Kaeng Phed Ped Yang", "price": "Inquire", "description": "Red roasted duck curry.", "ingredients": ["Duck", "coconut milk", "red curry", "bamboo", "lychee", "pineapple"], "allergens": [] }
+            { "id": "32", "name": "Ped Laad Prik", "price": "17.50", "description": "Duck with sweet chili sauce.", "ingredients": ["Duck", "sweet chili sauce", "basil"], "allergens": ["Soy"] },
+            { "id": "33", "name": "Ped Krob Lemongrass", "price": "17.50", "description": "Crispy duck Lemongrass style.", "ingredients": ["Duck", "stir-fried vegetables", "lemongrass", "special sauce"], "allergens": ["Soy"] },
+            { "id": "34", "name": "Ped Kratheam", "price": "18.50", "description": "Duck with garlic and pepper.", "ingredients": ["Duck", "garlic", "pepper"], "allergens": [] },
+            { "id": "35", "name": "Ped Pad Pak", "price": "18.50", "description": "Duck stir-fry with vegetables.", "ingredients": ["Duck", "fresh vegetables", "soy sauce"], "allergens": ["Soy"] },
+            { "id": "36", "name": "Ped Wine Daeng", "price": "18.50", "description": "Duck in red wine.", "ingredients": ["Duck", "red wine", "spices"], "allergens": ["Sulphites"] },
+            { "id": "37", "name": "Kaeng Phed Ped Yang", "price": "18.50", "description": "Red roasted duck curry.", "ingredients": ["Duck", "coconut milk", "red curry", "bamboo", "lychee", "pineapple"], "allergens": [] }
         ]
     },
     {
         "category": "Fish & Seafood",
         "items": [
-            { "id": "38", "name": "Prawn Curry", "price": "Inquire", "description": "Prawns in various curry sauces.", "ingredients": ["Prawns", "curry", "coconut milk", "vegetables"], "allergens": ["Crustaceans"] },
-            { "id": "47", "name": "Chu-Chee Pla", "price": "Inquire", "description": "Sea bream in dry red curry.", "ingredients": ["Sea bream (fish)", "red curry", "coconut milk", "kaffir lime"], "allergens": ["Fish"] }
+            { "id": "38", "name": "Chu Chee Goong", "price": "19.00", "description": "Fried prawns in red curry and coconut milk sauce.", "ingredients": ["Prawns", "red curry", "coconut milk"], "allergens": ["Crustaceans"] },
+            { "id": "47", "name": "Chu-Chee Pla", "price": "19.50", "description": "Fried Sea Bream in red curry and coconut milk.", "ingredients": ["Sea bream (fish)", "red curry", "coconut milk", "kaffir lime"], "allergens": ["Fish"] }
         ]
     },
     {
         "category": "Rice & Noodles",
         "items": [
-            { "id": "48", "name": "Khao Phad Pak", "price": "Inquire", "description": "Fried rice with vegetables.", "ingredients": ["Rice", "mixed vegetables", "soy"], "allergens": ["Soy"] },
-            { "id": "49", "name": "Kao Souy", "price": "3.00", "description": "White Jasmine rice.", "ingredients": ["Jasmine rice"], "allergens": [] },
-            { "id": "50", "name": "Kao Maan Kati", "price": "3.50", "description": "Coconut rice.", "ingredients": ["Jasmine rice", "coconut milk", "sesame"], "allergens": ["Sesame (possible)"] },
-            { "id": "51", "name": "Sticky Rice", "price": "3.50", "description": "Traditional sticky rice.", "ingredients": ["Sticky rice"], "allergens": [] },
-            { "id": "52", "name": "Fried Rice with Eggs", "price": "Inquire", "description": "Egg fried rice.", "ingredients": ["Rice", "egg", "chives"], "allergens": ["Egg"] },
-            { "id": "53", "name": "Pineapple Fried Rice", "price": "Inquire", "description": "Pineapple fried rice with chicken.", "ingredients": ["Rice", "chicken", "pineapple", "egg", "raisins", "cashews"], "allergens": ["Egg", "Nuts"] },
-            { "id": "54", "name": "Phad Thai Gai", "price": "Inquire", "description": "Rice noodles with chicken (Classic).", "ingredients": ["Rice noodles", "chicken", "egg", "peanuts", "bean sprouts", "tamarind"], "allergens": ["Egg", "Peanuts", "Soy"] },
-            { "id": "55", "name": "Phad Thai Goong Sod", "price": "Inquire", "description": "Rice noodles with prawns.", "ingredients": ["Rice noodles", "prawns", "egg", "peanuts", "tamarind"], "allergens": ["Crustaceans", "Egg", "Peanuts"] },
-            { "id": "56", "name": "Phad See Ew Gai", "price": "Inquire", "description": "Wide rice noodles with chicken.", "ingredients": ["Rice noodles", "chicken", "vegetables", "dark soy sauce"], "allergens": ["Soy"] },
-            { "id": "57", "name": "Phad See Ew Goong", "price": "Inquire", "description": "Wide rice noodles with prawns.", "ingredients": ["Rice noodles", "prawns", "vegetables", "soy sauce"], "allergens": ["Crustaceans", "Soy"] },
-            { "id": "58", "name": "Guey Taew Phad Khi Mao", "price": "Inquire", "description": "Spicy 'drunken' noodles.", "ingredients": ["Rice noodles", "chicken", "chili", "basil", "fresh pepper"], "allergens": ["Soy"] },
-            { "id": "60", "name": "Chips / Fries", "price": "4.00", "description": "Portion of chips/fries.", "ingredients": ["Potato", "vegetable oil", "salt"], "allergens": [] }
+            { "id": "48", "name": "Khao Phad Pak", "price": "6.00", "description": "Fried rice with vegetables.", "ingredients": ["Rice", "mixed vegetables", "soy"], "allergens": ["Soy"] },
+            { "id": "49", "name": "Kao Souy", "price": "4.00", "description": "White Jasmine rice.", "ingredients": ["Jasmine rice"], "allergens": [] },
+            { "id": "50", "name": "Kao Maan Kati", "price": "5.00", "description": "Coconut rice.", "ingredients": ["Jasmine rice", "coconut milk", "sesame"], "allergens": ["Sesame (possible)"] },
+            { "id": "51", "name": "Sticky Rice", "price": "5.00", "description": "Traditional sticky rice.", "ingredients": ["Sticky rice"], "allergens": [] },
+            { "id": "52", "name": "Fried Rice with Eggs", "price": "5.50", "description": "Egg fried rice.", "ingredients": ["Rice", "egg", "chives"], "allergens": ["Egg"] },
+            { "id": "53", "name": "Pineapple Fried Rice", "price": "11.50", "description": "Fried rice with chicken and pineapple.", "ingredients": ["Rice", "chicken", "pineapple", "egg", "raisins", "cashews"], "allergens": ["Egg", "Nuts"] },
+            { "id": "54", "name": "Phad Thai Gai", "price": "12.50", "description": "Rice noodles with chicken (Classic).", "ingredients": ["Rice noodles", "chicken", "egg", "peanuts", "bean sprouts", "tamarind"], "allergens": ["Egg", "Peanuts", "Soy"] },
+            { "id": "55", "name": "Phad Thai Goong Sod", "price": "13.50", "description": "Rice noodles with prawns.", "ingredients": ["Rice noodles", "prawns", "egg", "peanuts", "tamarind"], "allergens": ["Crustaceans", "Egg", "Peanuts"] },
+            { "id": "56", "name": "Phad See Ew Gai", "price": "12.50", "description": "Wide rice noodles with chicken.", "ingredients": ["Rice noodles", "chicken", "vegetables", "dark soy sauce"], "allergens": ["Soy"] },
+            { "id": "57", "name": "Phad See Ew Goong", "price": "14.50", "description": "Wide rice noodles with prawns.", "ingredients": ["Rice noodles", "prawns", "vegetables", "soy sauce"], "allergens": ["Crustaceans", "Soy"] },
+            { "id": "58", "name": "Guey Taew Phad Khi Mao", "price": "12.50", "description": "Spicy 'drunken' noodles with chicken.", "ingredients": ["Rice noodles", "chicken", "chili", "basil", "fresh pepper"], "allergens": ["Soy"] },
+            { "id": "59", "name": "Guey Taew Plao", "price": "6.00", "description": "Special plain boiled noodles.", "ingredients": ["Rice noodles"], "allergens": [] },
+            { "id": "60", "name": "Chips / Fries", "price": "3.50", "description": "Portion of chips/fries.", "ingredients": ["Potato", "vegetable oil", "salt"], "allergens": [] }
         ]
     }
 ];
