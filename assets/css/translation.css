@@ -1,0 +1,109 @@
+/* Custom Translation Widget */
+#google_translate_element {
+    display: none !important; /* Hide the default Google widget */
+}
+
+.goog-te-banner-frame {
+    display: none !important; /* Hide the top banner */
+}
+
+body {
+    top: 0 !important; /* Fix body shift caused by banner */
+}
+
+.custom-translate-widget {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 10000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.lang-toggle-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.lang-toggle-btn:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.lang-options {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    background: rgba(20, 20, 20, 0.95);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.lang-options.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.lang-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    transition: background 0.2s;
+    white-space: nowrap;
+    background: transparent;
+    border: none;
+    width: 100%;
+    text-align: left;
+}
+
+.lang-option:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.lang-flag {
+    font-size: 1.2rem;
+}
+
+.lang-name {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .custom-translate-widget {
+        bottom: 80px; /* Above bottom nav if exists, or just higher */
+        left: 20px;
+    }
+}

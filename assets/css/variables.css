@@ -1,0 +1,42 @@
+:root {
+    /* 🎨 COLORES BASE */
+    /* 1️⃣ Gris cielo claro - Fondo principal */
+    --bg-color: #d3d9dc;
+    --bg-gradient: linear-gradient(135deg, #d3d9dc 0%, #b8c0c6 100%);
+    
+    /* 2️⃣ Gris azulado medio - Secundario */
+    --bg-secondary: #b8c0c6;
+    
+    /* 3️⃣ Gris oscuro neutro - Texto Principal */
+    --text-color: #2b2b2b;
+    --text-white: #ffffff; /* Para contraste en botones/fondos oscuros */
+    
+    /* 🎨 COLORES DE ACENTO */
+    /* 4️⃣ Dorado cálido - Acento Principal (Botones, Precios) */
+    --primary-color: #c9a24d;
+    --primary-hover: #b08d42;
+    
+    /* 5️⃣ Verde oliva oscuro - Secundario (Títulos, Footer) */
+    --secondary-color: #3f4f3b; /* Antes era text-color, ahora se usa para titulos importantes */
+    
+    /* 6️⃣ Marrón tierra / piedra - Detalles */
+    --tertiary-color: #6a4a2f;
+    
+    /* 7️⃣ Rojo apagado - Avisos/Hover alt */
+    --accent-color: #8f3a2e;
+
+    /* Glassmorphism Settings (Light Theme Adaptation) */
+    /* Usamos blanco semitransparente para que destaque sobre el gris claro, 
+       o el propio gris con blur si se prefiere un look más "sólido".
+       Probamos con una mezcla para efecto "Cristal limpio". */
+    --glass-bg: rgba(255, 255, 255, 0.4); 
+    --glass-bg-dark: rgba(63, 79, 59, 0.85); /* Verde oliva transparente para menús móviles/footer */
+    --glass-border: rgba(255, 255, 255, 0.6);
+    --glass-shadow: 0 8px 32px 0 rgba(63, 79, 59, 0.1); /* Sombra verdosa sutil */
+    --backdrop-blur: 12px;
+    
+    --font-main: 'Poppins', sans-serif;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 32px;
+}

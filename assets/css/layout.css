@@ -1,0 +1,96 @@
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    transition: all 0.3s ease;
+}
+
+.header-scrolled {
+    background: rgba(255, 255, 255, 0.9); /* Solid light background */
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 0.5rem 5%; /* Slight shrink for effect */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.highlight {
+    color: var(--primary-color);
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+/* Hero Section */
+.hero-title {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero-carousel {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    padding-top: 100px; /* Header space */
+}
+
+/* Footer */
+footer {
+    padding: 3rem 5%;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.social-links a {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: all 0.3s;
+    color: #ffffff; /* Force white color for visibility on dark footer */
+    display: inline-block;
+}
+
+.social-links a:hover {
+    color: var(--primary-color);
+}
