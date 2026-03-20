@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 function initParticles() {
     const script = document.createElement('script');
-    script.src = 'assets/js/components/particles.js';
+    script.src = 'assets/js/components/click-spark.js';
     document.body.appendChild(script);
 }
 
